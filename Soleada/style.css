@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.listaNav li:hover {
+    border-bottom: 2px solid;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 16px;
+    background-image: url(images/soleada-bienvenida.jpg);
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 100vh;
+}
+
+.contenedor-index {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+header {
+    background-color: rgba(187, 182, 178, 0.97);
+    background: url(images/soleada-bienvenida.jpg);
+    padding: 1rem;
+    position: sticky;
+    top: 0px;
+    display: flex;
+}
+
+.navigationBar {
+    width: 100%;
+    height: 50px;
+}
+
+.logoNav {
+    width: 20%;
+    display: inline-block;
+}
+
+#logoSoleadaNav {
+    width: 50%;
+    display: inline-block;
+}
+
+.menuNav {
+    text-align: center;
+    width: 75%;
+    display: inline-block;
+}
+
+#servicios-lista {
+    display: flex
+    flex-direction: column;
+    padding: 50px;
+}
+
+.servicios-item {
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+    list-style: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:black;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 70px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 50px;
+}
+
+h3 {
+    padding: 20px;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+}
+
+.logo-bienvenida {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main {
+height: 75vh;
+}
+
+
+#grid-nosotros {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    display: flex;
+}
+
+.texto-nosotros {
+    width: 49%;
+    display: inline-block;
+    padding: 50px 50px 50px 80px;
+ }
+
+.imagen-nosotros {
+    width: 49%;
+    display: inline-block;
+}
+
+#nosotros {
+    width: 100%;
+}
+
+#grid-servicios {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    display: flex;
+}
+
+.texto-servicios {
+    width: 49%;
+    display: inline-block;
+    padding: 50px 50px 50px 80px;
+ }
+
+.lista-servicios {
+    width: 49%;
+    display: inline-block;
+}
+
+#galeria {
+    height: 1000px;
+}
+
+.grid-fotos-videos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 500px;
+    display: flex;
+    column-gap: 10px;
+    padding: 10px;
+    row-gap: 10px;
+}
+
+.foto {
+    width: 24.5%;
+}
+
+#grid-ubicacion {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    display: flex;
+}
+
+.frame-ubicacion {
+    width: 49%;
+    display: inline-block;
+    padding: 20px;
+
+ }
+
+.texto-ubicacion {
+    width: 49%;
+    display: inline-block;
+    padding: 20px;
+}
+
+#ubicacion {
+    display: block;
+    width: 100%;
+    height: 180%;
+}
+
+.frase-ubicacion {
+    padding: 10px;
+}
+
+.form-contacto {
+    width: 100%;
+    display: ;
+    padding: 20px;
+    align-items: center;
+}
+
+.campo-formulario {
+    text-align: center;
+    padding: 5px;
+}
+
+input {
+    height: 30px;
+    width: 400px;
+}
+
+#texto {
+    height: 180px;
+}
+
+footer {
+    color:white;
+    background-color: rgba(31, 31, 31, 1);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.datos {
+    display: inline-block;
+    padding: 8px;
+    font-size: 10px;
+    width: 50%;
+}
+
+.social {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    display: inline;
+    width: 50%;
+    float: right;
+}
+
+#facebook {width: 5vh;float: right}
+#instagram {width: 7vh;float: right;}
+#whatsapp {width: 5vh;float: right;}
+#youtube {width: 6vh;float: right;}
+
+@media screen and (max-width: 600px) {
+
+    #logoSoleadaNav {
+        width: 100%;
+    }
+
+    h1 {
+            padding: 10px 10px;
+        font-size: 40px;
+    }
+    
+    h2 {
+        padding: 10px 5px;
+        font-size: 30px;
+    }
+    
+    h3 {
+        padding: 10px;
+    }
+    
+    h4 {
+        font-size: 15px;
+    }
+
+    .datos {
+        display: none
+    }
+
+    .social {
+        width: 100%;
+    }
+
+    #facebook {width: 4vh;}
+    #instagram {width: 6vh;}
+    #whatsapp {width: 4vh;}
+    #youtube {width: 5vh;}
+
+}
