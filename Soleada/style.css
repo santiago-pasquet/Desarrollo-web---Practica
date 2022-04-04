@@ -64,13 +64,13 @@ header {
 }
 
 #logoSoleadaNav {
-    width: 50%;
+    width: 25%;
     display: inline-block;
 }
 
 .menuNav {
     text-align: center;
-    width: 75%;
+    width: 100%;
     display: inline-block;
 }
 
@@ -307,6 +307,7 @@ footer {
     padding: 8px;
     font-size: 10px;
     width: 50%;
+    margin: 0px 0px 0px 0px;
 }
 
 .social {
@@ -314,7 +315,7 @@ footer {
     padding: 8px;
     align-items: center;
     display: inline;
-    width: 50%;
+    width: 100%;
     float: right;
 }
 
