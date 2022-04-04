@@ -360,4 +360,21 @@ footer {
     #whatsapp {width: 4vh;}
     #youtube {width: 5vh;}
 
+@keyframes tamanio-eventos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+
+@keyframes tamanio-bienvenidos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 40px;
+    }
+}
 }
