@@ -1,0 +1,42 @@
+
+@keyframes movimiento {
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 100%;
+    }
+}
+
+#eventos {
+    animation-name: tamanio-eventos;
+    animation-duration: 6s;
+}
+
+@keyframes tamanio-eventos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 25px;
+    }
+}
+
+#bienvenidos {
+    animation-name: tamanio-bienvenidos;
+    animation-duration: 6s;
+}
+
+@keyframes tamanio-bienvenidos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 70px;
+    }
+}
+
+#logo-bienvenida {
+    animation-name: movimiento;
+    animation-duration: 6s;
+}

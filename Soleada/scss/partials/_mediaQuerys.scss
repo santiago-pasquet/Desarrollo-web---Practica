@@ -1,0 +1,73 @@
+@media screen and (max-width: 600px) {
+
+    #logoSoleadaNav {
+        width: 25%;
+    }
+
+    body{
+        letter-spacing: 1px;
+        font-size: 12px;
+    }
+
+    h1 {
+            padding: 10px 10px;
+        font-size: 40px;
+    }
+    
+    h2 {
+        padding: 10px 5px;
+        font-size: 30px;
+    }
+    
+    h3 {
+        padding: 10px;
+    }
+    
+    h4 {
+        font-size: 15px;
+    }
+
+    .texto-nosotros {
+        overflow: scroll;
+        padding: 10px 10px 10px 10px;
+     }
+
+     .social {
+        padding: 4px;
+        }
+
+     .fa {
+        padding: 3px;
+        font-size: 25px;
+        width: 40px;
+      }
+    
+@keyframes tamanio-eventos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 15px;
+    }
+}
+
+@keyframes tamanio-bienvenidos {
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 40px;
+    }
+}}
+
+@media screen and (max-width: 400px) {
+    .social {
+        display: flex;
+        justify-content: space-around;
+        }
+        
+    #facebook {float: none}
+    #instagram {float: none}
+    #whatsapp {float: none}
+    #youtube {float: none}
+    }
