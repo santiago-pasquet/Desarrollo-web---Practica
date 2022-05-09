@@ -1,0 +1,13 @@
+header {
+    background-color: $third-color;
+    background: url(images/soleada-bienvenida.jpg);
+    padding: 1rem;
+    position: sticky;
+    top: 0px;
+    display: flex;
+}
+
+#logoSoleadaNav {
+    width: 25%;
+    display: inline-block;
+}
